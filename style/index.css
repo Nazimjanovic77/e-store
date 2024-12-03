@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: myfont;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    border: 1px solid red;
+} 
